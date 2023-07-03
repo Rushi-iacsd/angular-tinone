@@ -1,0 +1,17 @@
+
+  .pri-buttons{
+
+     background-color: $color-primary  !important;
+   border:  2px solid $color-primary !important;
+   transition: all .2s ease-in-out;
+    color:  $color-dark !important;
+   
+
+   &:hover,
+   &:focus,
+   &:active{
+    background-color: $color-dark !important;
+    color: $color-primary !important;
+
+   }
+   }
