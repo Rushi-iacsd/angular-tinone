@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class IconsComponent implements OnInit {
 
  @Input() iconsArray !: Array<any>
+ @Input()  ulclassName : string = "iconList"
+
 
   constructor() { }
 

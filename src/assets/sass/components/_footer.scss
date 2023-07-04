@@ -3,12 +3,38 @@
     background-color: $color-dark;
 
     
-.iconList{
-    li{
-    
-    a{
-        color: $color-primary;
+
+    .iconList{
+
+        margin-bottom: 120px;
+        li{
+        display: inline-block;
+        margin-right: 26px;
+        a{
+            &:link, &:visited{
+                color: $color-primary;
+            }
+           
+        }
     }
 }
+    }
+
+    
+
+.footerLinks1{
+
+    li{
+      
+        margin-bottom: 5px;
+    }
+    li,
+    a{
+        color: $color-white;
+    }
 }
-}
+
+
+
+
+

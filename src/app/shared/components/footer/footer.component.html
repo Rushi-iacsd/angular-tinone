@@ -17,14 +17,106 @@
             <form class="form-inline text-center">
                 <label class="sr-only text-white" for="email">Name</label>
                 <input type="text" class="form-control email  mb-2 mr-sm-2" 
-                id="email" placeholder="Enter Your Email">
+                id="email" placeholder="Click On Submit">
     
                 <button type="submit" class="btn pri-buttons mb-2">Submit</button>
               </form>
               <app-icons [iconsArray]="iconsListArray"></app-icons>
             </div>
-        <div class="row">
-
         </div>
-    </div>
-    </div>
+
+
+            <div class="row">       
+                <div class="col-md-3">
+                    <ul class="footerLinks1 text-white">
+                      <li>
+                        HALOVIETNAM LTD 
+                      </li>
+                      <li>
+                         66, Dnag Van ngu ,Dong Da
+                      </li>
+                      <li>
+                         Hanoi, Vietnam  
+                      </li>
+                      <li>
+                         <a href="emailto:contact@halovietnam.com">
+                          contact@halovietnam.com
+                         </a>
+                      </li>
+                      <li>
+                         <a href="tel:1234567890">
+                            1234567890
+                         </a>
+                      </li>
+                   </ul>
+                </div>  
+              
+        <div class="col-md-1 offset-md-1" *ngFor="let footerLink of footerLink">
+         <app-icons   [ulclassName]= "'footerLinks'"   [iconsArray]="footerLink"></app-icons>
+        </div>
+      
+            </div>
+        
+    
+<!--    
+  <div class=" col-xs-6  col-md-offset-1">
+                  <ul class="footerLinks">
+                      <li>
+                         <a href="javascript:;">
+                           about 
+                         </a>
+                      </li>
+                      <li>
+                          <a href="javascript:;">
+                            contact 
+                          </a>
+                       </li>
+                       <li>
+                       <a href="javascript:;">
+                        call
+                        </a>
+                     </li>
+                   </ul>
+                </div>
+                <div class=" col-xs-6  col-md-offset-1">
+                  <ul class="footerLinks">
+                      <li>
+                         <a href="javascript:;">
+                           about 
+                         </a>
+                      </li>
+                      <li>
+                          <a href="javascript:;">
+                            contact 
+                          </a>
+                       </li>
+                       <li>
+                       <a href="javascript:;">
+                        call
+                        </a>
+                     </li>
+                   </ul>
+                </div>
+                <div class="col-md-1 col-xs-6  col-md-offset-1">
+                  <ul class="footerLinks">
+                      <li>
+                         <a href="javascript:;">
+                           about 
+                         </a>
+                      </li>
+                      <li>
+                          <a href="javascript:;">
+                            contact 
+                          </a>
+                       </li>
+                       <li>
+                       <a href="javascript:;">
+                        call
+                        </a>
+                     </li>
+                   </ul>
+                </div>
+           
+              </div> -->
+        
+         
